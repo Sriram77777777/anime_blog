@@ -84,9 +84,6 @@ export default function AnimePage() {
   const { slug } = useParams();
   const anime = animeData[slug];
 
-  if (!anime) {
-    return <h2>Anime not found</h2>;
-  }
 
   return (
     <div className="container">
