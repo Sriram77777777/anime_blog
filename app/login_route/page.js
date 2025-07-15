@@ -1,30 +1,29 @@
 'use client';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
-import Card from '../component/Card';
+import Card from '@/component/Card';
 
-
-export default function Home() {
+export default function login_route() {
   const [selectedCard, setSelectedCard] = useState(null);
   const router = useRouter();
 
-  const lo = (event)=>{
+  const handleLogout = (event) => {
     event.preventDefault();
-    router.push('/login');
-  }
 
-  const a_lo = (event)=>{
-    event.preventDefault();
-    router.push('/ad_login');
-  }
+    
+    localStorage.clear(); 
+
+    
+    router.push('/');
+  };
 
   return (
     <div className="container">
-
-      <div className="navbar">
-        
-        <h4 onClick={a_lo}>Admin login</h4>
-        <h4 onClick={lo}>User login</h4>
+      <div className="navbar-user">
+        <h1>User Dashboard</h1>
+        <button onClick={handleLogout} className="logout-button">
+          Logout
+        </button>
       </div>
 
       <div className="header">
