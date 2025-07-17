@@ -1,13 +1,10 @@
-
-
 * {
   box-sizing: border-box;
-  
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
   background-color: antiquewhite;
-  font-family: sans-serif;
 }
 
 .container {
@@ -43,7 +40,7 @@ body {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   padding: 12px;
   text-align: center;
-  transition: transform 0.3s ease;
+  
 }
 
 .card:hover {
@@ -86,12 +83,14 @@ body {
 
 .navbar{
   background-color: white;
-  padding: 1px;
   border-radius: 20px;
   display:flex;
-  justify-content: right;
+  justify-content: space-between;
   align-items: center;
   color:gray;
+  height:70px;
+  margin-left:50px;
+  margin-right: 50px;
 }
 
 .navbar h1{
@@ -153,8 +152,7 @@ body {
   font-size: 16px;
   border-radius: 6px;
   border: 1px solid #ccc;
-  outline: none;
-  transition: border 0.3s ease;
+ ;
 }
 
 
@@ -169,7 +167,7 @@ body {
   border-radius: 6px;
   cursor: pointer;
   font-size: 16px;
-  transition: background 0.3s ease;
+  
 }
 
 .login-modal button:hover {
@@ -334,7 +332,6 @@ body {
   border: solid 2px #ccc;
   background-color: black;
   width:80px;
-  
   justify-content: center;
 }
 
@@ -376,5 +373,15 @@ body {
   margin-left:20px;
 }
 
+.left-nav{
+  margin-left:100px;
+  font-size: 24px;
+  color: black;
+  font-weight: 800;
+}
 
+.right-nav{
+  margin-right:20px;
+  display: flex;
+}
 

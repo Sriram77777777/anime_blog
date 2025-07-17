@@ -22,9 +22,14 @@ export default function Home() {
     <div className="container">
 
       <div className="navbar">
+        <div className='left-nav'>
+          <h3>Blokify</h3>
+        </div>
+        <div className='right-nav'>
+            <h4 onClick={a_lo}>Admin login</h4>
+            <h4 onClick={lo}>User login</h4>
+        </div>
         
-        <h4 onClick={a_lo}>Admin login</h4>
-        <h4 onClick={lo}>User login</h4>
       </div>
 
       <div className="header">

@@ -9,11 +9,6 @@ export default function login_route() {
 
   const handleLogout = (event) => {
     event.preventDefault();
-
-    
-    localStorage.clear(); 
-
-    
     router.push('/');
   };
 

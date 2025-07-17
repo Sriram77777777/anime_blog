@@ -81,13 +81,13 @@ const AdminPage = () => {
     {
       title: 'Black Clover',
       slug: 'black-clover',
-      image: 'https://images6.fanpop.com/image/photos/43700000/Black-Clover-black-clover-43715593-2048-1536.jpg',
+      image: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/7413f0c3e7bf7c2bd635d1e545be651b343d93d3e6cc60e9f8e00308b8b4a1ac._RI_V_TTW_.jpg',
       description: 'Asta, born without magic, vows to become the Wizard King.',
     },
     {
       title: 'Fullmetal Alchemist',
       slug: 'fullmetal-alchemist',
-      image: 'https://images6.fanpop.com/image/photos/36600000/Full-Metal-Alchemist-image-full-metal-alchemist-36621437-3399-4958.jpg',
+      image: 'https://tse3.mm.bing.net/th/id/OIP.kL3hphWx_8-p4GzzyjhxwgHaFj?pid=Api&P=0&w=300&h=300',
       description: 'Two brothers use alchemy in their quest to recover what they lost.',
     },
     {
