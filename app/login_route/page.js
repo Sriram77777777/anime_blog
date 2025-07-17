@@ -3,7 +3,7 @@ import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import Card from '@/component/Card';
 
-export default function login_route() {
+export default function Login_route() {
   const [selectedCard, setSelectedCard] = useState(null);
   const router = useRouter();
 
